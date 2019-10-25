@@ -1,0 +1,125 @@
+{
+  "configs": [
+    {
+      "automock": false,
+      "browser": false,
+      "cache": true,
+      "cacheDirectory": "/private/var/folders/26/gv3dj_lj5fs4jqkkj90cwr5r0000gn/T/jest_dx",
+      "clearMocks": false,
+      "coveragePathIgnorePatterns": [
+        "/node_modules/"
+      ],
+      "cwd": "/Users/pascalvandenhoek/Projects/testing-svelte",
+      "dependencyExtractor": null,
+      "detectLeaks": false,
+      "detectOpenHandles": false,
+      "errorOnDeprecated": false,
+      "filter": null,
+      "forceCoverageMatch": [],
+      "globalSetup": null,
+      "globalTeardown": null,
+      "globals": {},
+      "haste": {
+        "computeSha1": false,
+        "providesModuleNodeModules": [],
+        "throwOnModuleCollision": false
+      },
+      "moduleDirectories": [
+        "node_modules"
+      ],
+      "moduleFileExtensions": [
+        "js",
+        "svelte"
+      ],
+      "moduleNameMapper": {},
+      "modulePathIgnorePatterns": [],
+      "name": "5cdf898c4eb1b06bc0ea1b24dde3c8c8",
+      "prettierPath": "prettier",
+      "resetMocks": false,
+      "resetModules": false,
+      "resolver": null,
+      "restoreMocks": false,
+      "rootDir": "/Users/pascalvandenhoek/Projects/testing-svelte",
+      "roots": [
+        "/Users/pascalvandenhoek/Projects/testing-svelte"
+      ],
+      "runner": "jest-runner",
+      "setupFiles": [],
+      "setupFilesAfterEnv": [],
+      "skipFilter": false,
+      "snapshotSerializers": [],
+      "testEnvironment": "/Users/pascalvandenhoek/Projects/testing-svelte/node_modules/jest-environment-jsdom/build/index.js",
+      "testEnvironmentOptions": {},
+      "testLocationInResults": false,
+      "testMatch": [
+        "**/__tests__/**/*.[jt]s?(x)",
+        "**/?(*.)+(spec|test).[tj]s?(x)"
+      ],
+      "testPathIgnorePatterns": [
+        "/node_modules/"
+      ],
+      "testRegex": [],
+      "testRunner": "/Users/pascalvandenhoek/Projects/testing-svelte/node_modules/jest-jasmine2/build/index.js",
+      "testURL": "http://localhost",
+      "timers": "real",
+      "transform": [
+        [
+          "^.+\\.svelte$",
+          "/Users/pascalvandenhoek/Projects/testing-svelte/node_modules/jest-transform-svelte/index.js"
+        ],
+        [
+          "^.+\\.(js|jsx)?$",
+          "/Users/pascalvandenhoek/Projects/testing-svelte/node_modules/babel-jest/build/index.js"
+        ]
+      ],
+      "transformIgnorePatterns": [
+        "/Users/pascalvandenhoek/Projects/testing-svelte/node_modules/"
+      ],
+      "watchPathIgnorePatterns": []
+    }
+  ],
+  "globalConfig": {
+    "bail": 0,
+    "changedFilesWithAncestor": false,
+    "collectCoverage": false,
+    "collectCoverageFrom": null,
+    "coverageDirectory": "/Users/pascalvandenhoek/Projects/testing-svelte/coverage",
+    "coverageReporters": [
+      "json",
+      "text",
+      "lcov",
+      "clover"
+    ],
+    "coverageThreshold": null,
+    "detectLeaks": false,
+    "detectOpenHandles": false,
+    "errorOnDeprecated": false,
+    "expand": false,
+    "filter": null,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "json": false,
+    "listTests": false,
+    "maxConcurrency": 5,
+    "maxWorkers": 7,
+    "noStackTrace": false,
+    "nonFlagArgs": [],
+    "notify": false,
+    "notifyMode": "failure-change",
+    "passWithNoTests": false,
+    "projects": null,
+    "rootDir": "/Users/pascalvandenhoek/Projects/testing-svelte",
+    "runTestsByPath": false,
+    "skipFilter": false,
+    "testFailureExitCode": 1,
+    "testPathPattern": "",
+    "testResultsProcessor": null,
+    "testSequencer": "/Users/pascalvandenhoek/Projects/testing-svelte/node_modules/@jest/test-sequencer/build/index.js",
+    "updateSnapshot": "new",
+    "useStderr": false,
+    "verbose": null,
+    "watch": false,
+    "watchman": true
+  },
+  "version": "24.9.0"
+}
